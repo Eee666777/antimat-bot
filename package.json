@@ -1,12 +1,13 @@
 {
   "name": "antimat-bot",
   "version": "1.0.0",
-  "description": "Telegram Anti-Mat Moderator Bot",
+  "description": "Telegram Anti-Mat Moderator Bot with Web Server",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "grammy": "^1.21.1"
+    "grammy": "^1.21.1",
+    "express": "^4.19.2"
   }
 }
